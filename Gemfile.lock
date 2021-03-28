@@ -89,7 +89,7 @@ GEM
     method_source (1.0.0)
     mini_mime (1.0.3)
     mini_portile2 (2.5.0)
-    minitest (5.10.3)
+    minitest (5.14.4)
     minitest-reporters (1.1.14)
       ansi
       builder
@@ -199,7 +199,7 @@ DEPENDENCIES
   guard-minitest (= 2.4.4)
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
-  minitest (= 5.10.3)
+  minitest
   minitest-reporters (= 1.1.14)
   mysql2 (>= 0.3.18, < 0.6.0)
   pg
