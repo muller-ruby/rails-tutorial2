@@ -62,3 +62,6 @@ end
 
 # Allow puma to be restarted by `rails restart` command.
 plugin :tmp_restart
+
+#　21_04_18に追加　https://qiita.com/nakamurau1@github/items/fed3ffb96d289becf095
+worker_timeout 500
