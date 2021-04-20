@@ -54,4 +54,9 @@ Rails.application.configure do
   #config.hosts << ".herokuapp.com"
 
   config.web_console.whitelisted_ips = '172.24.0.1'
+
+  config.action_mailer.raise_delivery_errors = true
+  config.action_mailer.delivery_method = :test
+  host = 'localhost:3000'                     # ローカル環境
+  config.action_mailer.default_url_options = { host: host, protocol: 'http' }
 end
